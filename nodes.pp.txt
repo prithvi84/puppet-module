@@ -1,0 +1,9 @@
+node default {
+include nginx
+}
+
+node 'puppet.node1.com', 'puppet.node2.com' {
+include nginx
+}
+
+
